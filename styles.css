@@ -1,15 +1,16 @@
 .box{
-    height:40px;
-    width:40px;
     background-color: rgb(205, 205, 205);
     box-sizing: border-box;
 }
 
 .container{
+    height:640px;
+    width:640px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border:1px solid black;
 }
 
 .row{
