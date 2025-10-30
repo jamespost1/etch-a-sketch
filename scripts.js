@@ -5,7 +5,6 @@ let container = document.querySelector(".container")
         for (let j = 0; j < 16; j++) {
             let div = document.createElement("div");
             div.classList.add("box");
-            div.style.backgroundColor = "blue";
             row.appendChild(div);
         }
         container.appendChild(row);
