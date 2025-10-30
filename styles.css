@@ -1,6 +1,7 @@
 .box{
     background-color: rgb(205, 205, 205);
     box-sizing: border-box;
+    border: 1px solid #ddd;
 }
 
 .container{
